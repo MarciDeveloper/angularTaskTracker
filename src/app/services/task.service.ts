@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+<<<<<<< HEAD
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Task } from '../Task';
@@ -35,3 +36,22 @@ export class TaskService {
     return this.http.post<Task>(this.apiUrl, task, httpOptions);
   }
 }
+=======
+import { Observable, of } from 'rxjs'
+import { TASKS } from 'src/app/mock-task';
+import { Task } from '../Task';
+
+
+@Injectable({
+  providedIn: 'root'
+})
+export class TaskService {
+
+  constructor() { }
+
+  getTasks(): Observable<Task[]> {
+    const tasks =  of(TASKS);
+    return tasks;
+  }
+}
+>>>>>>> ecdb19a03251e23d960e6e066a08bf2c0580c5e4

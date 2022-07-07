@@ -24,7 +24,10 @@
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
+<<<<<<< HEAD
     "json-server": "^0.17.0",
+=======
+>>>>>>> ecdb19a03251e23d960e6e066a08bf2c0580c5e4
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
